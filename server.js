@@ -44,5 +44,5 @@ app.get('/api/posts', (req, res) => {
 		}
 
 	]
-	res.send('Hello World!');
+	res.json(menù);
 })
