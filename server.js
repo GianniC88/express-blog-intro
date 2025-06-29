@@ -13,7 +13,7 @@ app.listen(port, () => {
 	console.log(`Example app listening on http://localhost:${port}`)
 })
 
-app.get('/api/posts', (req, res) => {
+app.get('/api/posts/', (req, res) => {
 	const menù = [
 		{
 			title: "Il ciambellone",
